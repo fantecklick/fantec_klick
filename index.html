@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Unity Games</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bg.png");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 40px;
+      padding: 25px 20px;
+      background: rgba(255, 255, 255, 0.85);
+      color: #333;
+      border-radius: 12px;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    }
+    header h1 {
+      margin: 0 0 10px;
+    }
+    header p {
+      margin: 0;
+    }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; max-width: 1000px; margin: 0 auto; }
+    .card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s; }
+    .card:hover { transform: translateY(-5px); }
+    .card img { width: 100%; height: 160px; object-fit: cover; background: #ddd; }
+    .card-body { padding: 15px; }
+    .card-title { font-size: 1.2em; font-weight: bold; margin: 0 0 10px; }
+    .card-desc { font-size: 0.9em; color: #666; margin-bottom: 15px; }
+    .btn { display: inline-block; padding: 8px 16px; background: #007bff; color: #fff; text-decoration: none; border-radius: 4px; font-size: 0.9em; }
+    .btn:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>制作ゲーム一覧</h1>
+  <p>Unityで作成したゲームをまとめています。</p>
+</header>
+
+<div class="grid">
+  <!-- ゲーム1 -->
+  <div class="card">
+    <img src="RPG_Game_klick.png" alt="ゲーム1の画像">
+    <div class="card-body">
+      <div class="card-title">クレイジーゲーム_klick</div>
+      <div class="card-desc">ぜひ遊んでみてください！！</div>
+      <a href="https://play.unity.com/api/v1/games/game/a388ed57-fa2b-4a0b-a419-f6c1113eba2b/build/latest/frame" class="btn" target="_blank">プレイする</a>
+    </div>
+  </div>
+
+  <!-- ゲーム2 -->
+  <div class="card">
+    <img src="Draw_Line_klick.png" alt="ゲーム2の画像">
+    <div class="card-body">
+      <div class="card-title">レースゲーム_klick</div>
+      <div class="card-desc">簡単なレースゲームです！！</div>
+      <a href="https://play.unity.com/api/v1/games/game/78e0df8f-6237-4ec4-a9b0-e6d453ad896a/build/latest/frame" class="btn" target="_blank">プレイする</a>
+    </div>
+  </div>
+
+  <!-- ゲーム3 -->
+  <div class="card">
+    <img src="Quiz_Game_klick.png" alt="ゲーム3の画像">
+    <div class="card-body">
+      <div class="card-title">2Dアクション_klick</div>
+      <div class="card-desc">2Dアクションゲーム</div>
+      <a href="https://play.unity.com/api/v1/games/game/b75e52a1-2a23-4853-b583-f5f059f168c0/build/latest/frame" class="btn" target="_blank">プレイする</a>
+    </div>
+  </div>
+
+  <!-- ゲーム4 -->
+  <div class="card">
+    <img src="Quiz_Game_klick.png" alt="ゲーム4の画像">
+    <div class="card-body">
+      <div class="card-title">Death_Game_Klick</div>
+      <div class="card-desc">Chapter7アクションゲームです！</div>
+      <a href="https://play.unity.com/api/v1/games/game/ea65ff06-0155-4e7a-90d4-b2e1b8d8373e/build/latest/frame" class="btn" target="_blank">プレイする</a>
+    </div>
+  </div>
+
+  <!-- ゲーム5 -->
+  <div class="card">
+    <img src="Quiz_Game_klick.png" alt="ゲーム5の画像">
+    <div class="card-body">
+      <div class="card-title">Death RollerBall Game_klick</div>
+      <div class="card-desc">ローラーボールゲームです！！</div>
+      <a href="https://play.unity.com/api/v1/games/game/338afe78-d734-4046-a4ee-2cca61b2c5b9/build/latest/frame" class="btn" target="_blank">プレイする</a>
+    </div>
+  </div>
+
+  <!-- ゲーム6 -->
+  <div class="card">
+    <img src="Quiz_Game_klick.png" alt="ゲーム6の画像">
+    <div class="card-body">
+      <div class="card-title">難しい_klick</div>
+      <div class="card-desc">アイテムを落とすゲームです。</div>
+      <a href="https://play.unity.com/api/v1/games/game/a991f56f-84af-4f52-976d-8149262a8fc5/build/latest/frame" class="btn" target="_blank">プレイする</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
